@@ -151,6 +151,7 @@ def main():
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
 
+
     # Libérer les ressources
     cap.release()
     cv2.destroyAllWindows()
