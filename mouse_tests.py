@@ -10,7 +10,6 @@ class Screen_Mouse:
     def move_to(self,x,y):
         pyautogui.moveTo(x, y)
 
-
     def move(self,x,y):
         pyautogui.move(x, y)
 
