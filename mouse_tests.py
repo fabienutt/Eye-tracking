@@ -2,7 +2,10 @@ import pyautogui
 
 class Screen_Mouse:
     def __init__(self):
-        self.screen_width, self.screen_height = pyautogui.size()
+        print("ok")
+
+    def get_screen_size(self):
+        return pyautogui.size()
 
     def move_to(self,x,y):
         pyautogui.moveTo(x, y)
