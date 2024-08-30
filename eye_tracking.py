@@ -66,7 +66,7 @@ def apply_mask(image):
     if image is not None:
         
         # Seuiller pour détecter les lignes noires (foncées)
-        _, mask = cv2.threshold(image, 45, 255, cv2.THRESH_BINARY)
+        _, mask = cv2.threshold(image, 50, 255, cv2.THRESH_BINARY)
         
         # Inverser le masque pour que les lignes noires deviennent blanches
         
